@@ -1,1 +1,18 @@
-/*  your css code here. If applicable */
+/* /*  your css code here. If applicable  */
+    body{
+        background-color: black;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .container{
+        display: grid;
+        gap:2px;
+       grid-template-columns: repeat(40,20px);
+    }
+    .box{
+        background-color: gray;
+        height: 20px;
+        transition: 1s ease;
+    }
